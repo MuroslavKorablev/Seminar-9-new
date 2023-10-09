@@ -17,7 +17,8 @@ void ShowNNumbers(int number)
     if (number == 0) return;
     else
     {
-        ShowNNumbers(number - 1);
+        // Console.Write(number + " "); // От N до 1
+        ShowNNumbers(number - 1); // От 1 до N
         Console.Write(number + " ");
     }
 }
